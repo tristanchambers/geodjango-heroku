@@ -38,9 +38,13 @@ Then
 $ heroku local:run python manage.py startapp myapp
 ```
 
-add app to project settings.py
+Add app to project settings.py
 
-edit myapp/models.py
+Edit myapp/models.py. Don't forget to import gis models:
+
+```
+from django.contrib.gis.db import models
+```
 
 And finally
 
