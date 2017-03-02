@@ -38,7 +38,10 @@ Then
 $ heroku local:run python manage.py startapp myapp
 ```
 
+Add 'django.contrib.gis' app to settings.py
+
 Add app to project settings.py
+
 
 Edit myapp/models.py. Don't forget to import gis models:
 
